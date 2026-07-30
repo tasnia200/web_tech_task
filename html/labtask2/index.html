@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> University Admission Form </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Personal Infomation </legend>
+                <label> Name: </label> <br>
+                <input type="text" placeholder="Enter your name" required maxlength="15">
+                <br><br>
+
+                <label> Email:</label> <br>
+                <input type="email" placeholder="Enter your email" required>
+                <br><br>
+
+                <label> Gender: </label> <br>
+                <input type="radio" name="gender" value="Male" > Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Others"> Others
+                <br><br>
+
+                <label> Interests: </label>
+                <input type="checkbox" name="interests" value="Cricket"> Cricket
+                <input type="checkbox" name="interests" value="Singing"> Singing
+                <input type="checkbox" name="interests" value="Cycling"> Cycling
+                <br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Academic Information</legend> <br>
+
+                <label> Course:</label>
+                <select name="course" required>
+                    <option value=""> Select a course</option>
+                    <option value="EEE">EEE</option>
+                    <option value="CSE">CSE</option>
+                    <option value="IPE">IPE</option>
+                    <option value="BBA">BBA</option>
+                </select>
+                <br><br>
+
+                <label> Date: </label>
+                <input type="date" >
+                <br><br>
+
+                <label> Transcripts:</label>
+                <input type="file">
+                <br><br>
+                
+            </fieldset>
+
+            <br><br><br>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
