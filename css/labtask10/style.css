@@ -1,0 +1,54 @@
+body {
+
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+
+.box {
+
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+
+.red {
+
+    background-color: red;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+}
+
+
+.blue {
+
+    background-color: blue;
+    top: 100px;
+    left: 200px;
+    z-index: 2;
+}
+
+
+.green {
+    
+    background-color: green;
+    top: 150px;
+    left: 300px;
+    z-index: 3;
+}
