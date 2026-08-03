@@ -1,0 +1,27 @@
+body{
+
+    font-family:Arial, sans-serif;
+    text-align:center;
+
+}
+
+.box{
+
+    width:300px;
+    height:200px;
+
+    border:2px solid black;
+
+    padding:15px;
+
+    margin:20px auto;
+
+    /* overflow: visible;   Shows content outside the box */
+
+    /* overflow: hidden;    Hides extra content */
+
+    /* overflow: scroll;    Always shows scrollbars */
+
+    overflow:auto;          /* Shows scrollbar only when needed */
+
+}
