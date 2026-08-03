@@ -1,0 +1,40 @@
+body{
+
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+
+}
+
+h1{
+
+    text-align:center;
+
+}
+
+.content{
+
+    height:1500px;
+
+}
+
+.contact-widget{
+
+    position:fixed;
+    bottom:15px;
+    right:15px;
+
+    background-color:lightblue;
+    border:2px solid black;
+
+    padding:12px;
+
+    z-index:10;
+
+}
+
+.contact-widget:hover{
+
+    background-color:lightgreen;
+
+}
